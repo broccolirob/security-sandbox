@@ -8,7 +8,7 @@
   "scripts": {
     "deploy": "hardhat deploy",
     "console": "hardhat console",
-    "clean": "hardhat clean",
+    "clean": "hardhat clean && rm -rf deployments",
     "verify:etherscan": "hardhat etherscan-verify",
     "verify:tenderly": "hardhat tenderly-verify",
     "verify:sourcify": "hardhat sourcify",
