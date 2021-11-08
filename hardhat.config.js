@@ -5,6 +5,7 @@ require("hardhat-gas-reporter");
 require("hardhat-deploy");
 require("solidity-coverage");
 require("hardhat-docgen");
+require("hardhat-ethernal");
 require("./tasks/accounts");
 require("./tasks/balance");
 require("./tasks/block-number");
@@ -169,6 +170,9 @@ module.exports = {
     path: "./docs",
     clear: true,
     except: [],
+  },
+  ethernal: {
+    ethernalWorkspace: "Sandbox",
   },
   mocha: {
     timeout: 100000,
