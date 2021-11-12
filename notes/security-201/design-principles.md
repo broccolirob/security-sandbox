@@ -1,3 +1,5 @@
+# Secure Design Principles
+
 ## 192. Principle of Least Privilege
 
 “Every program and every user of the system should operate using the least set of privileges necessary to complete the job” — Ensure that various system actors have the least amount of privilege granted as required by their roles to execute their specified tasks. Granting excess privilege is prone to misuse/abuse when trusted actors misbehave or their access is hijacked by malicious entities.
