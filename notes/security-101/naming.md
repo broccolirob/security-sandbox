@@ -1,4 +1,4 @@
-# Variables
+# Naming
 
 ## Dangerous shadowing
 

@@ -7,7 +7,7 @@
 - [Bugs & Attacks](./bugs-and-attacks.md)
 - [Tokens & Ether](./money.md)
 - [Intention Check](./checks.md)
-- [Variables](./variables.md)
+- [Naming](./naming.md)
 - [Gas Considerations](./gas.md)
 - [Events](./events.md)
 - [Best Practices](./best-practices.md)

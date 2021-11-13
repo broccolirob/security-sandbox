@@ -1,16 +1,16 @@
-## 48. Dangerous unary expressions
+# Best Practices
+
+## Dangerous unary expressions
 
 Unary expressions such as `x =+ 1` are likely errors where the programmer really meant to use `x += 1`. Unary `+` operator was deprecated in `solc v0.5.0`.
 
-## 49. Missing zero address validation
+## Missing zero address validation
 
 Setters of address type parameters should include a zero-address check otherwise contract functionality may become inaccessible or tokens burnt forever.
 
-## 50. Critical address change
+## Critical address change
 
 Changing critical addresses in contracts should be a two-step process where the first transaction (from the old/current address) registers the new address (i.e. grants ownership) and the second transaction (from the new address) replaces the old address with the new one (i.e. claims ownership). This gives an opportunity to recover from incorrect addresses mistakenly used in the first step. If not, contract functionality might become inaccessible.
-
-# Best Practices
 
 ## `assert()` / `require()` state change
 
