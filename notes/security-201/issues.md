@@ -44,12 +44,9 @@ Incorrect or insufficient cryptography especially related to on-chain signature 
 
 Incorrect or insufficient detecting, reporting and handling of error conditions will cause exceptional behavior to go unnoticed which may lead to security issues.
 
-### Internal references
+### Notes references
 
 - [Unhandled return values of `transfer` and `transferFrom`](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#unhandled-return-values-of-transfer-and-transferfrom)
-- [ERC20 `transfer` does not return boolean](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-101/money.md#erc20-transfer-does-not-return-boolean)
-- [ERC20 `transfer` and `transferFrom`](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-201/tokens-specific.md#erc20-transfer-and-transferfrom)
-- [Token handling](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-201/economic-functions.md#token-handling)
 
 ## Denial-of-Service (DoS) issues
 
@@ -74,6 +71,10 @@ Interacting with external components (e.g. tokens, contracts, oracles) forces sy
 ## Trust issues
 
 Incorrect or Insufficient trust assumption about/among system actors and external entities will lead to privilege escalation/abuse which may lead to security issues.
+
+### Notes references
+
+- [Random task execution](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#random-task-execution)
 
 ## Gas issues
 

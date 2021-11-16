@@ -4,9 +4,17 @@
 
 `delegatecall()` or `callcode()` to an address controlled by the user allows execution of malicious contracts in the context of the caller’s state. Ensure trusted destination addresses for such calls.
 
+### Notes references
+
+- [Random task execution](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#random-task-execution)
+
 ## Reentrancy vulnerabilities
 
 Untrusted external contract calls could callback leading to unexpected results such as multiple withdrawals or out-of-order events. Use check-effects-interactions pattern or reentrancy guards.
+
+### Notes references
+
+- [Random task execution](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#random-task-execution)
 
 ## ERC777 callbacks and reentrancy
 
