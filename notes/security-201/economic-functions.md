@@ -7,3 +7,10 @@ Contracts that accept/manage/transfer ETH should ensure that functions handling 
 ## Token Handling
 
 Contracts that accept/manage/transfer ERC tokens should ensure that functions handling tokens account for different types of ERC tokens (e.g. ERC20 vs ERC777), deflationary/inflationary tokens, rebasing tokens and trusted/external tokens. Functions handling tokens should be checked extra carefully for access control, input validation and error handling.
+
+### Internal references
+
+- [Unhandled return values of `transfer` and `transferFrom`](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#unhandled-return-values-of-transfer-and-transferfrom)
+- [ERC20 `transfer` does not return boolean](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-101/money.md#erc20-transfer-does-not-return-boolean)
+- [ERC20 `transfer` and `transferFrom`](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-201/tokens-specific.md#erc20-transfer-and-transferfrom)
+- [Error reporting issues](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-201/issues.md#error-reporting-issues)

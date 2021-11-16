@@ -4,6 +4,13 @@
 
 Should return a boolean. Several tokens do not return a boolean on these functions. As a result, their calls in the contract might fail.
 
+### Internal references
+
+- [Unhandled return values of `transfer` and `transferFrom`](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#unhandled-return-values-of-transfer-and-transferfrom)
+- [ERC20 `transfer` does not return boolean](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-101/money.md#erc20-transfer-does-not-return-boolean)
+- [Token handling](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-201/economic-functions.md#token-handling)
+- [Error reporting issues](https://github.com/broccolirob/security-sandbox/blob/master/notes/security-201/issues.md#error-reporting-issues)
+
 ## ERC20 `name()`, `decimals()`, and `symbol()` functions
 
 Are present if used. These functions are optional in the ERC20 standard and might not be present.
