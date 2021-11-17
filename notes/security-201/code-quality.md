@@ -8,6 +8,10 @@ Ensure input validation for all function parameters especially if the visibility
 
 Ensure that the arguments to function calls at the caller sites are the correct ones and in the right order as expected by the function definition.
 
+### Notes references
+
+- [Reversed order of parameters in `allowance` function call](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#reversed-order-of-parameters-in-allowance-function-call)
+
 ## Function visibility
 
 Ensure that the strictest visibility is used for the required functionality. An accidental external/public visibility will allow (untrusted) users to invoke functionality that is supposed to be restricted internally.
@@ -19,6 +23,11 @@ Ensure that the right set of function modifiers are used (in the correct order) 
 ## Function return values
 
 Ensure that the appropriate return value(s) are returned from functions and checked without ignoring at function call sites, so that error conditions are caught and handled appropriately.
+
+### Notes references
+
+- [Unhandled return values of `transfer` and `transferFrom`](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#unhandled-return-values-of-transfer-and-transferfrom)
+- [ Error codes of Compound's `Comptroller.enterMarket`, `Comptroller.exitMarket` are not checked](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#error-codes-of-compounds-comptrollerentermarket-comptrollerexitmarket-are-not-checked)
 
 ## Function invocation timeliness
 

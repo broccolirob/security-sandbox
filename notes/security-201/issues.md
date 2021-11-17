@@ -24,6 +24,10 @@ Missing validation of data or incorrectly/insufficiently validating data, especi
 
 Incorrect numerical computation will cause unexpected behavior which may lead to security issues.
 
+### Notes references
+
+- [Tokens with more than 18 decimal points will cause issues](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#tokens-with-more-than-18-decimal-points-will-cause-issues)
+
 ## Accounting issues
 
 Incorrect or insufficient tracking or accounting of business logic related aspects such as states, phases, permissions, roles, funds (deposits/withdrawals) and tokens (mints/burns/transfers) may lead to security issues.
@@ -47,6 +51,7 @@ Incorrect or insufficient detecting, reporting and handling of error conditions 
 ### Notes references
 
 - [Unhandled return values of `transfer` and `transferFrom`](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#unhandled-return-values-of-transfer-and-transferfrom)
+- [Error codes of Compound's `Comptroller.enterMarket`, `Comptroller.exitMarket` are not checked](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#error-codes-of-compounds-comptrollerentermarket-comptrollerexitmarket-are-not-checked)
 
 ## Denial-of-Service (DoS) issues
 
