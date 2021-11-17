@@ -15,6 +15,7 @@ Ensure that the arguments to function calls at the caller sites are the correct 
 ### Notes references
 
 - [Reversed order of parameters in `allowance` function call](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#reversed-order-of-parameters-in-allowance-function-call)
+- [`swapExactTokensForETH` checks the wrong return value](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#swapexacttokensforeth-checks-the-wrong-return-value)
 
 ## Function visibility
 
