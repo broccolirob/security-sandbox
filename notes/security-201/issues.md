@@ -36,6 +36,10 @@ Incorrect numerical computation will cause unexpected behavior which may lead to
 
 Incorrect or insufficient tracking or accounting of business logic related aspects such as states, phases, permissions, roles, funds (deposits/withdrawals) and tokens (mints/burns/transfers) may lead to security issues.
 
+### Notes references
+
+- [Purchasing and committing still possible after launch](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#purchasing-and-committing-still-possible-after-launch)
+
 ## Access control issues
 
 Incorrect or insufficient access control or authorization related to system actors, roles, assets and permissions may lead to security issues.
@@ -76,10 +80,6 @@ Incorrect assumptions on ordering of user actions or system state transitions ma
 ## Undefined behavior issues
 
 Any behavior that is undefined in the specification but is allowed in the implementation will result in unexpected outcomes which may lead to security issues.
-
-### Notes references
-
-- [Purchasing and committing still possible after launch](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#purchasing-and-committing-still-possible-after-launch)
 
 ## External interaction issues
 
