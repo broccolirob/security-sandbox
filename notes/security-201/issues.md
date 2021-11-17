@@ -36,6 +36,10 @@ Incorrect or insufficient tracking or accounting of business logic related aspec
 
 Incorrect or insufficient access control or authorization related to system actors, roles, assets and permissions may lead to security issues.
 
+### Notes references
+
+- [Token approvals can be stolen in `DAOfiV1Router01.addLiquidity()`](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#token-approvals-can-be-stolen-in-daofiv1router01addliquidity)
+
 ## Auditing/logging issues
 
 Incorrect or insufficient emission of events will impact off-chain monitoring and incident response capabilities which may lead to security issues.

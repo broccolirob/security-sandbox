@@ -4,6 +4,10 @@
 
 Ensure input validation for all function parameters especially if the visibility is external/public where (untrusted) users can control values. This is especially required for address parameters where maliciously/accidentally used incorrect/zero addresses can cause vulnerabilities or unexpected behavior.
 
+### Notes references
+
+- [Token approvals can be stolen in `DAOfiV1Router01.addLiquidity()`](https://github.com/broccolirob/audit-sandbox/blob/master/notes/audit-findings-101/1-block.md#token-approvals-can-be-stolen-in-daofiv1router01addliquidity)
+
 ## Function arguments
 
 Ensure that the arguments to function calls at the caller sites are the correct ones and in the right order as expected by the function definition.
